@@ -39,6 +39,7 @@ class server {
         this.app.get('/about', require('./routers/home-routers'));
         this.app.get('/shop', require('./routers/home-routers'));
         this.app.get('/shops', require('./routers/home-routers'));
+        this.app.get('/product_order',require ('./routers/home-routers'));
         this.app.get('/icons',require('./routers/home-routers'));
         this.app.get('/tables',require ('./routers/home-routers'));
 

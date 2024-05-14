@@ -27,6 +27,11 @@ const shopsGET = (req, res = response)=>{
    res.render('shop-single.hbs');
 
 }
+
+const product_orderGET = (req, res = response)=>{
+   res.render('product_order.hbs');
+
+}
 const HomeGET = (req, res = response)=>{
    res.render('dashboard.hbs');
 
@@ -57,6 +62,6 @@ LogGET,
   tableGET,
   iconosGET,
   HomeGET,
-  tablasGET
-
+  tablasGET,
+  product_orderGET
 }
